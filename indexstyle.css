@@ -1,0 +1,148 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;
+  background-color: #c13b17;  
+}
+
+h2 {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+
+h2 {
+  font-size: 30px;
+  font-size: 3.5vw;
+}
+
+/* Animation */
+h2 {
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+
+
+.header {
+  padding: 6px;
+  text-align: center;
+ 
+  color:grey;
+  font-size: 9px;
+}
+
+
+
+.col-container {
+
+  display: table;
+  width: 100%;
+
+}
+
+
+.col {
+
+  display: table-cell;
+  padding: 6px;
+  text-align:center;
+   
+}
+
+
+.container {
+
+  position: relative;
+  width: 100%
+  margin:auto;
+
+}
+
+ul {
+  list-style-type:none;
+
+
+}
+
+
+.image {
+
+  display: block;
+  width: 60%;
+  height: auto;
+  margin:auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+
+
+.overlay {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:beige;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+
+  width: 100%;
+
+}
+
+div{
+
+  margin-top: 10px;
+  
+}
+
+
+
+.text {
+
+  white-space: nowrap; 
+  color:black;
+  font-size: 30px;
+  font-size: 3.5vw;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+
+
