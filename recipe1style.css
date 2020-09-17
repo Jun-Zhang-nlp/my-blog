@@ -2,9 +2,10 @@
 url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body{
-  padding: 20px;
+  padding: 5px;
   background-color: #c13b17;  
   text-align:center;
+  position:flex;
 }
 
 h2 {
