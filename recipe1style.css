@@ -13,13 +13,13 @@ h2 {
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
+  
   color: rgba(255,255,255,.70);
 }
 
 
 h2 {
-  font-size: 30px;
+  font-size: 319px;
   font-size: 3.5vw;
 }
 
@@ -71,6 +71,7 @@ h2 {
   display: table-cell;
   padding: 6px;
   text-align:center;
+  border-radius: 25px;
    
 }
 
@@ -103,7 +104,7 @@ h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color:beige;
+  background-color:white;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -129,7 +130,7 @@ div{
 
   white-space: nowrap; 
   color:black;
-  font-size: 30px;
+  font-size: 20px;
   font-size: 3.5vw;
   position: absolute;
   overflow: hidden;
