@@ -141,4 +141,36 @@ div{
 }
 
 
+* {
+	box-sizing: border-box;
+}
+  
+  /* Create two equal columns that floats next to each other */
+.col {
+	float: left;
+	width: 50%;
+	padding: 25px;
+  
+  height:auto;
+  
 
+	
+}
+
+
+/* Clear floats after the columns */
+.col-container:after {
+	content: "";
+	display: flex;
+	clear: both;
+}
+  
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col {
+	display:block;
+  width: 100%;
+
+}
